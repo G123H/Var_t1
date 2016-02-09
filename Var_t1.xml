@@ -53,8 +53,18 @@
                                       <block type="math_arithmetic" id="173" inline="true">
                                         <field name="OP">ADD</field>
                                         <value name="A">
-                                          <block type="math_number" id="190">
-                                            <field name="NUM">9</field>
+                                          <block type="math_arithmetic" id="224" inline="true">
+                                            <field name="OP">MULTIPLY</field>
+                                            <value name="A">
+                                              <block type="math_number" id="225">
+                                                <field name="NUM">3</field>
+                                              </block>
+                                            </value>
+                                            <value name="B">
+                                              <block type="math_number" id="226">
+                                                <field name="NUM">3</field>
+                                              </block>
+                                            </value>
                                           </block>
                                         </value>
                                         <value name="B">
